@@ -18,7 +18,7 @@ const LinkAccount = () => {
         const url = WalletLink.createWalletLinkUrl({
           universalLink: app.universalLink,
           requestAppId: getBundleId(),
-          callbackUrl: 'illios://callback',
+          callbackUrl: 'illios://',
           appName: 'Illios Hotspot',
         })
 
