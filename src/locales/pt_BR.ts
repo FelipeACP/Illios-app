@@ -218,8 +218,8 @@ export default {
       title: 'REGISTERING HOTSPOT',
     },
     selection: {
-      subtitle: '[Placeholder instructions]',
-      title: 'Add\nyour Hotspot.',
+      subtitle: 'Selecione o tipo de Hotspot que você quer cadastrar.',
+      title: 'Adicione\nseu Hotspot.',
     },
     skip_location: {
       subtitle_1: 'You have decided to assert location later.',
@@ -251,16 +251,16 @@ export default {
     },
   },
   hotspots: {
-    view_activity: 'After adding a Hotspot, you can view your account on the ',
-    explorer: 'Helium Explorer',
+    view_activity: 'Depois de adicionar um Hotspot, você pode vê-lo no ',
+    explorer: 'Explorador Helium',
     empty: {
-      body: 'Your add hotspot\ninstructions',
+      body: 'Aqui você pode gerenciar seus Hotspots.',
       hotspots: {
-        add: 'Add Hotspot',
-        assertLocation: 'Assert Location',
-        transfer: 'Transfer Hotspot',
+        add: 'Adicionar Hotspot',
+        assertLocation: 'Configurar Localização',
+        transfer: 'Transferir Hotspot',
       },
-      title: 'Add a\n[Placeholder] Miner',
+      title: 'Hotspots',
     },
   },
   learn: {
@@ -269,31 +269,31 @@ export default {
   more: {
     sections: {
       app: {
-        language: 'Language',
-        signOut: 'Sign Out',
-        signOutWithLink: 'Sign Out - Linked as: {{address}}',
+        language: 'Idioma',
+        signOut: 'Sair',
+        signOutWithLink: 'Sair - Vinculado como: {{address}}',
         signOutAlert: {
-          body: 'You are signing out of your account.',
-          title: 'Warning!',
+          body: 'Você tem certeza que deseja sair?',
+          title: 'Atenção!',
         },
         title: 'App',
       },
       security: {
         authIntervals: {
-          after_15_min: 'After 15 minutes',
-          after_1_hr: 'After 1 hour',
-          after_1_min: 'After 1 minute',
-          after_4_hr: 'After 4 hours',
-          after_5_min: 'After 5 minutes',
-          immediately: 'Immediately',
+          after_15_min: 'Depois de 15 minutos',
+          after_1_hr: 'Depois de 1 hora',
+          after_1_min: 'Depois de 1 minuto',
+          after_4_hr: 'Depois de 4 horas',
+          after_5_min: 'Depois de 5 minutos',
+          immediately: 'Imediatamente',
         },
-        enablePin: 'Enable PIN',
-        requirePin: 'Require PIN',
-        resetPin: 'Reset PIN',
-        title: 'Security',
+        enablePin: 'Habilitar PIN',
+        requirePin: 'Exigir PIN',
+        resetPin: 'Redefinir PIN',
+        title: 'Segurança',
       },
     },
-    title: 'Settings',
+    title: 'Configurações',
   },
   ordinals: [
     '1st',
@@ -312,18 +312,18 @@ export default {
   permissions: {
     location: {
       message:
-        'MakerApp needs access to your location for Bluetooth discovery and to enable location assertion. This information will never be sold or shared.',
-      title: 'Location Permission',
+        'Illios Hotspot precisa de acesso a sua localização para configurar a localização do hotspot. Essa informação jamais será vendida ou compartilhada.',
+      title: 'Permissão de localização',
     },
   },
   wallet: {
-    copiedToClipboard: 'Copied {{address}} to clipboard',
+    copiedToClipboard: '{{address}} copiado para a área de transferência',
   },
   transferHotspot: {
-    title: 'Transfer Hotspot',
-    enterHotspot: 'Enter Hotspot Address',
-    enterOwner: 'Enter New Owner Address',
-    submit: 'Submit Transaction',
-    submitComplete: 'Transfer Successfully Submitted!\n Pending Txn Hash:',
+    title: 'Transferir Hotspot',
+    enterHotspot: 'Insira o endereço do Hotspot',
+    enterOwner: 'Insira o endereço do novo proprietário',
+    submit: 'Transferir',
+    submitComplete: 'Transferência processada com sucesso!\n Txn Hash:',
   },
 }
