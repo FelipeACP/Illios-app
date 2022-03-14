@@ -177,7 +177,7 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode getVersionCode()
-        versionName getNpmVersion()
+        versionName 0.1.0
     }
     splits {
         abi {
